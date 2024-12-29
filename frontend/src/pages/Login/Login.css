@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Urbanist", sans-serif;
+}
+
+.container input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-inline: 10px;
+  border: 1px solid rgb(189, 189, 189);
+  outline: none;
+  border-radius: 6px;
+}
+
+.container button {
+  height: 40px;
+  width: 310px;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-radius: 6px;
+}
+
+.container p {
+  font-size: 0.8rem;
+}
