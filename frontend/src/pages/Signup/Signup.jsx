@@ -1,24 +1,25 @@
 import React, { useState } from "react";
-import "./Login.css";
+import "./Signup.css";
 import { Link, useNavigate } from "react-router-dom";
 
-const Login = () => {
+const Signup = () => {
   const navigate = useNavigate();
 
   return (
     <div className="container">
-      <h1>Login</h1>
+      <h1>Signup</h1>
+      <input type="text" placeholder="Username" />
       <input type="email" placeholder="Email" />
       <input type="password" placeholder="Password" />
-      <button type="submit">Login</button>
+      <button type="submit">Signup</button>
       <p>
-        Don't have an account,{" "}
-        <Link to="/signup" className="link">
-          Create one
+        Already have an account,{" "}
+        <Link to="/login" className="link">
+          Login
         </Link>
       </p>
     </div>
   );
 };
 
-export default Login;
+export default Signup;
