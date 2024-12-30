@@ -8,7 +8,7 @@ const Signup = () => {
   return (
     <div className="container">
       <h1>Signup</h1>
-      <input type="text" placeholder="Username" />
+      <input type="text" placeholder="Fullname" />
       <input type="email" placeholder="Email" />
       <input type="password" placeholder="Password" />
       <button type="submit">Signup</button>

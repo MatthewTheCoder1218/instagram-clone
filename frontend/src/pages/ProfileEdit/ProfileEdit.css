@@ -1,3 +1,11 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 200px;
+}
+
 .upload-button {
   display: inline-block;
   padding: 10px 20px;
@@ -6,12 +14,51 @@
   border: none;
   border-radius: 200px;
   cursor: pointer;
+  transition: all ease-in-out 1s;
 }
 
 .upload-button:hover {
-  background-color: #3e8e41;
+  scale: 1.1;
 }
 
 .upload-img {
   width: 200px;
+}
+
+textarea {
+  resize: none;
+  width: 300px;
+  height: 120px;
+  margin-bottom: 10px;
+  padding-inline: 10px;
+  border: 1px solid rgb(189, 189, 189);
+  outline: none;
+  border-radius: 6px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-details input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-inline: 10px;
+  border: 1px solid rgb(189, 189, 189);
+  outline: none;
+  border-radius: 6px;
+}
+
+.profile-details button {
+  height: 40px;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-radius: 6px;
 }

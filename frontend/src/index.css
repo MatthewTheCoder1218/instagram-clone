@@ -6,6 +6,7 @@ body {
   font-family: "Urbanist", sans-serif;
 }
 
-input {
+input,
+textarea {
   font-family: "Urbanist", sans-serif;
 }
