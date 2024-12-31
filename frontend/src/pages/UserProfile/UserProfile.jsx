@@ -1,5 +1,6 @@
 import React from "react";
 import profile from "../../assets/profile.png";
+import image from "../../assets/image.jpg";
 import "./UserProfile.css";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -38,6 +39,110 @@ const UserProfile = () => {
             </div>
             <div className="following">
               <p className="head">Following</p> <h4>10</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="user-posts">
+        <div className="post">
+          <div className="post-content">
+            <img src={profile} alt="" className="img" />
+            <div className="post-desc">
+              <div className="name">Andrew Alvarado</div>
+              <div className="date">2 days ago</div>
+              <div className="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                ultricies, mauris id ullamcorper fermentum, lectus sapien ornare
+                justo, et consectetur nisi velit vitae enim. Donec semper, ipsum
+                in ullamcorper semper, metus urna viverra massa, vel malesuada
+                felis libero vel velit.
+              </div>
+              <img src={image} className="post-image" />
+            </div>
+          </div>
+        </div>
+        <div className="post">
+          <div className="post-content">
+            <img src={profile} alt="" className="img" />
+            <div className="post-desc">
+              <div className="name">Andrew Alvarado</div>
+              <div className="date">2 days ago</div>
+              <div className="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                ultricies, mauris id ullamcorper fermentum, lectus sapien ornare
+                justo, et consectetur nisi velit vitae enim. Donec semper, ipsum
+                in ullamcorper semper, metus urna viverra massa, vel malesuada
+                felis libero vel velit.
+              </div>
+              <img src={image} className="post-image" />
+            </div>
+          </div>
+        </div>
+        <div className="post">
+          <div className="post-content">
+            <img src={profile} alt="" className="img" />
+            <div className="post-desc">
+              <div className="name">Andrew Alvarado</div>
+              <div className="date">2 days ago</div>
+              <div className="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                ultricies, mauris id ullamcorper fermentum, lectus sapien ornare
+                justo, et consectetur nisi velit vitae enim. Donec semper, ipsum
+                in ullamcorper semper, metus urna viverra massa, vel malesuada
+                felis libero vel velit.
+              </div>
+              <img src={image} className="post-image" />
+            </div>
+          </div>
+        </div>
+        <div className="post">
+          <div className="post-content">
+            <img src={profile} alt="" className="img" />
+            <div className="post-desc">
+              <div className="name">Andrew Alvarado</div>
+              <div className="date">2 days ago</div>
+              <div className="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                ultricies, mauris id ullamcorper fermentum, lectus sapien ornare
+                justo, et consectetur nisi velit vitae enim. Donec semper, ipsum
+                in ullamcorper semper, metus urna viverra massa, vel malesuada
+                felis libero vel velit.
+              </div>
+              <img src={image} className="post-image" />
+            </div>
+          </div>
+        </div>
+        <div className="post">
+          <div className="post-content">
+            <img src={profile} alt="" className="img" />
+            <div className="post-desc">
+              <div className="name">Andrew Alvarado</div>
+              <div className="date">2 days ago</div>
+              <div className="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                ultricies, mauris id ullamcorper fermentum, lectus sapien ornare
+                justo, et consectetur nisi velit vitae enim. Donec semper, ipsum
+                in ullamcorper semper, metus urna viverra massa, vel malesuada
+                felis libero vel velit.
+              </div>
+              <img src={image} className="post-image" />
+            </div>
+          </div>
+        </div>
+        <div className="post">
+          <div className="post-content">
+            <img src={profile} alt="" className="img" />
+            <div className="post-desc">
+              <div className="name">Andrew Alvarado</div>
+              <div className="date">2 days ago</div>
+              <div className="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                ultricies, mauris id ullamcorper fermentum, lectus sapien ornare
+                justo, et consectetur nisi velit vitae enim. Donec semper, ipsum
+                in ullamcorper semper, metus urna viverra massa, vel malesuada
+                felis libero vel velit.
+              </div>
+              <img src={image} className="post-image" />
             </div>
           </div>
         </div>
