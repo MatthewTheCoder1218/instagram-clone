@@ -4,7 +4,7 @@ import "./PasswordInput.css";
 const PasswordInput = () => {
   const [showPassword, setShowPassword] = useState(false);
 
-  const togglePasswordVisibility = () => {
+  const toggleShowPassword = () => {
     setShowPassword(!showPassword);
   };
   return (
@@ -14,14 +14,14 @@ const PasswordInput = () => {
         <i
           className="fa-solid fa-eye"
           onClick={() => {
-            togglePasswordVisibility();
+            toggleShowPassword();
           }}
         />
       ) : (
         <i
           className="fa-solid fa-eye-slash"
           onClick={() => {
-            togglePasswordVisibility();
+            toggleShowPassword();
           }}
         />
       )}

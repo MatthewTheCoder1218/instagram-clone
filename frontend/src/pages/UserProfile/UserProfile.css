@@ -3,6 +3,11 @@
   align-items: center;
   gap: 10px;
   padding: 20px;
+  justify-content: space-between;
+}
+
+.top .left i {
+  cursor: pointer;
 }
 
 .top .link {
@@ -31,4 +36,34 @@
 
 .profile-desc .desc {
   color: grey;
+}
+
+.stats {
+  display: flex;
+  gap: 180px;
+}
+
+.followers,
+.following {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.followers .head,
+.following .head {
+  color: grey;
+}
+
+.followers h4,
+.following h4 {
+  margin-top: -12px;
+  font-size: 1.5rem;
+}
+
+.profile-desc {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
