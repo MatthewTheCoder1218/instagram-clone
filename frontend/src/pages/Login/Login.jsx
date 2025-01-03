@@ -13,7 +13,7 @@ const Login = () => {
       <PasswordInput />
       <button type="submit">Login</button>
       <p>
-        Don't have an account,{" "}
+        Don't have an account,
         <Link to="/signup" className="link">
           Create one
         </Link>

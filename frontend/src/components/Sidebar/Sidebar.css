@@ -1,0 +1,11 @@
+.sidebar-container {
+  height: auto; /* or any other desired height */
+}
+
+.sidebar {
+  width: 300px;
+  padding-left: 20px;
+  position: sticky;
+  top: 0;
+  padding-top: 10px; /* or any desired amount of padding */
+}
